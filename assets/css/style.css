@@ -1,54 +1,18 @@
-* {
-    box-sizing: border-box;
-}
-
-
-
 body {
-    font-family: sans-serif;
-    background-color: black;
-    
+ color: gold;
+ background-color: black;
+ text-align: center;
 }
-
-h1 {
-    font-family: sans-serif;
-    color: gold;
-    font-size: 30px;
-}
-
 p {
     color: gold;
+	font-size: 20px;
+	margin-top: 20px;
 }
+h2 {
+    font-size: 40px;
 
- .letter {
-    display: inline-block;
-    list-style: none;
-    width: 20px;
-    margin: 0 5px;
-    border-bottom: 1px solid purple;
-    text-align: center;
-    color: black;
 }
-.current-word {
-    list-style: none;
-}
-.output {
-    opacity: 0;
-    transition: opacity 1s ease;
-}
-.correct {
-    background-color: gold;
-    transition: all 1s ease;
-}
-.error {
-    color: red;
-    opacity: 1;
-}
-.warning {
-    color: orange;
-    opacity: 1;
-}
-.win {
-    color: lime;
-    opacity: 1;
-}
+word-blank {
+    font-size: 40px;
+}   
+
