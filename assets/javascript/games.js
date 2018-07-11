@@ -19,7 +19,7 @@ var numGuesses = 12;
 //var pressStart = "";
 
 var audioElement = document.createElement("audio");
-    audioElement.setAttribute("src", "Assets/images/hedwigs_theme.mp3");
+    audioElement.setAttribute("src", "assets/images/hedwigs_theme.mp3");
 
     $(".theme-button").on("click", function() {
         audioElement.play();
